@@ -1,4 +1,4 @@
-# 📊 Priya Madabal – Data Analytics Portfolio
+# Priya Madabal – Data Analytics Portfolio
 
 Welcome to my data analysis portfolio! I'm a Cloud Engineer turned Data Analyst with a Master’s in Analytics from RMIT University.
 
@@ -6,7 +6,7 @@ Here you'll find a collection of my data analytics projects that showcase skills
 
 ---
 
-## 🧠 Featured Projects
+## Featured Projects
 
 ### 1. Forecasting Public Transport Demand  
 **Tools**: Python, R, Power BI  
@@ -25,7 +25,7 @@ Optimized a retail database system to improve query performance.
 
 ---
 
-## 📫 Contact  
+## Contact  
 📍 Bengaluru, India  
 ✉️ priyamadabal1@gmail.com  
 🔗 [LinkedIn](https://www.linkedin.com/in/priya-madabal-7b917b204/)
