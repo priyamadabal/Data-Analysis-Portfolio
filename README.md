@@ -29,5 +29,5 @@ Optimized a retail database system to improve query performance.
 📍 Melbourne, Australia
 📍 Bengaluru, India
 ✉️ priyamadabal1@gmail.com  
-🔗 [LinkedIn]([https://www.linkedin.com/in/your-profile-link](https://www.linkedin.com/in/priya-madabal-7b917b204/))
+🔗 [[LinkedIn]([https://www.linkedin.com/in/priya-madabal-7b917b204])
 
