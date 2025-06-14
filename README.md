@@ -2,7 +2,7 @@
 
 Welcome to my data analysis portfolio! I'm a Cloud Engineer turned Data Analyst with a Master’s in Analytics from RMIT University.
 
-Here you'll find a collection of my data analytics projects that showcase skills in data cleaning, visualization, forecasting, and storytelling using tools like Python, SQL, Power BI, R and SAS. 
+Here you'll find a collection of my data analytics projects that showcase skills in data cleaning, visualization, forecasting, and storytelling using tools like Python, SQL, Power BI, R, and Tableau.
 
 ---
 
@@ -26,8 +26,6 @@ Optimized a retail database system to improve query performance.
 ---
 
 ## 📫 Contact  
-📍 Melbourne, Australia
-📍 Bengaluru, India
+📍 Bengaluru, India  
 ✉️ priyamadabal1@gmail.com  
-🔗 [[LinkedIn]([https://www.linkedin.com/in/priya-madabal-7b917b204]])
-
+🔗 [LinkedIn](https://www.linkedin.com/in/priya-madabal-7b917b204/)
