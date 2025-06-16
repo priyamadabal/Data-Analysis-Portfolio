@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cervical Cancer Risk Prediction</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <h1>ML Project: Cervical Cancer Risk Prediction</h1>
+  </header>
+
+  <main>
+    <section>
+      <h2> Project Overview</h2>
+      <p>
+        This machine learning project aims to predict cervical cancer risk by analyzing a dataset of 835 patients using demographic, behavioral, and medical test features. The ultimate goal is to support early diagnosis and assist healthcare providers with data-driven insights. By identifying patterns and risk factors, the project contributes to improving public health outcomes through timely intervention.
+      </p>
+    </section>
+
+    <section>
+      <h2> Objectives</h2>
+      <ul>
+        <li><strong>Phase 1 – Data Exploration:</strong> Focused on cleaning and preparing the dataset by removing irrelevant variables, handling missing values, and performing exploratory data analysis (EDA). Key predictors such as smoking, contraceptive use, and sexual history were identified to guide modeling.</li>
+        <li><strong>Phase 2 – Model Development:</strong> Applied four machine learning algorithms — KNN, Naive Bayes, Decision Tree, and Neural Network — to predict biopsy outcomes. Each model was tuned using Grid Search and cross-validation, with Naive Bayes achieving the best AUC score of 0.93.</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2> Methodology</h2>
+    
+      <h3> Phase 1: Data Preparation & Exploration</h3>
+      <ul>
+        The dataset (<a href="Phase1_Group21.csv" download target="_blank"> phase1.csv</a>) from Kaggle, containing 835 patient records and 36 features, was thoroughly inspected. Missing values and low-variance or irrelevant features were removed, and outliers were handled to improve data quality. Exploratory Data Analysis (EDA) helped uncover correlations and highlighted key risk factors like smoking and contraceptive use. Categorical variables were encoded, and numerical features were scaled using MinMaxScaler to prepare the data for modeling.
+      </ul>
+    
+      <h3> Phase 2: Model Building & Evaluation</h3>
+      <ul>
+        Using the cleaned dataset (<a href="phase2_group21.csv" download target="_blank"> phase2.csv</a>), four classification models were tested: K-Nearest Neighbors, Naive Bayes, Decision Tree, and Neural Network. Feature selection was refined using Random Forest importance. Each model was built using preprocessing pipelines and fine-tuned with Stratified K-Fold Cross-Validation and Grid Search. Performance was assessed using metrics such as accuracy, precision, recall, F1 score, and AUC-ROC, with the Naive Bayes model delivering the best result, achieving an AUC of 0.930.
+      </ul>
+    </section>
+    
+
+    <section>
+     <h2> Key Findings</h2>
+
+  <h3> Phase 1: Data Insights</h3>
+
+<ul>
+  <li style="list-style: none;">
+    <strong>Jupyter Notebook:</strong>
+    <a href="Phase1_Group21.ipynb" download target="_blank">Download EDA Notebook</a>
+  </li>
+</ul>
+
+  <ul>
+    <li>
+      Smoking, hormonal contraceptive use, and sexual history were identified as strong risk indicators for cervical cancer.
+    </li>
+    <li>
+      Visualizations revealed higher prevalence of risk factors among specific demographic groups.
+    </li>
+    <li>
+      Feature correlation analysis helped reduce dimensionality and enhanced model readiness.
+    </li>
+    <li>
+      Data balancing and scaling improved the quality of inputs for machine learning models.
+    </li>
+
+  </ul>
+    
+      <h3> Phase 2: Model Insights</h3>
+
+  <ul>
+  <li style="list-style: none;">
+    <strong>Jupyter Notebook:</strong>
+    <a href="phase2_group21.ipynb" download target="_blank">Download Model Notebook</a>
+  </li>
+</ul>
+
+
+      <ul>
+        <li>Naive Bayes classifier outperformed other models with an AUC score of <strong>0.930</strong>, showcasing its effectiveness in binary medical classification.</li>
+        <li>Top three predictive features were <strong>Hinselmann test</strong>, <strong>Schiller test</strong>, and <strong>Age</strong>.</li>
+        <li>Neural Networks performed well but were less interpretable and slightly less efficient compared to Naive Bayes.</li>
+        <li>Decision Trees offered transparency but were prone to overfitting without proper tuning.</li>
+      </ul>
+    </section>
+    
+
+    <section>
+      <h2> Results</h2>
+      <ul>
+        <li><strong>Naive Bayes</strong> had the best performance with ROC AUC = 0.930</li>
+        <li>Top 3 predictive features: Hinselmann test, Schiller test, and Age</li>
+        <li>Evaluation Metrics: Accuracy, Precision, Recall, F1 Score, ROC Curve</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2> Conclusion</h2>
+      <p>
+        The model successfully identified high-risk cervical cancer cases, enabling early intervention. This project shows how machine learning can assist healthcare providers by turning patient data into actionable insights, especially when using interpretable models like Naive Bayes.
+      </p>
+    </section>
+
+<!-- Resources Section -->
+<section>
+  <h2> Resources</h2>
+  <ul>
+    <li>
+      🧾 <strong>Phase 1 Dataset:</strong>
+      <a href="Phase1_Group21.csv" download target="_blank">Download phase1.csv</a>
+    </li>
+    <li>
+      🧾 <strong>Phase 2 Dataset:</strong>
+      <a href="phase2_group21.csv" download target="_blank">Download phase2.csv</a>
+    </li>
+    <li>
+      📓 <strong>Phase 1 Jupyter Notebook:</strong>
+      <a href="Phase1_Group21.ipynb" download target="_blank">Download EDA Notebook</a>
+    </li>
+    <li>
+      📓 <strong>Phase 2 Jupyter Notebook:</strong>
+      <a href="phase2_group21.ipynb" download target="_blank">Download Model Notebook</a>
+    </li>
+  </ul>
+</section>
+
+    <!-- Back to Portfolio -->
+    <section style="text-align: center; margin-top: 40px;">
+      <a href="index.html" class="resume-download">← Back to Portfolio</a>
+    </section>
+  </main>
+
+  <footer>
+    <p>Contact: +61 466267632 | <a href="mailto:priyamadabal1@gmail.com">priyamadabal1@gmail.com</a></p>
+    <p><a href="https://www.linkedin.com/in/priya-madabal-7b917b204/" target="_blank">LinkedIn</a></p>
+    <p>&copy; 2025 Priya Madabal</p>
+  </footer>
+
+</body>
+</html>

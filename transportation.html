@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Transportation Equity of Australia</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <h1>Transportation Equity of Australia</h1>
+  </header>
+
+  <main>
+    <section>
+      <h2>🌏 Project Overview</h2>
+      <p>
+        This project, conducted as part of the Applied Research unit at RMIT University, focused on analyzing the relationship between infrastructure investment and transportation usage across different Australian states. In partnership with Integrated Travel, a not-for-profit organization dedicated to sustainable rail transport, the study aimed to inform infrastructure planning through data-driven analysis.
+      </p>
+    </section>
+
+    <section>
+      <h2>🎯 Objectives</h2>
+      <ul>
+        <li>Evaluate how road and rail infrastructure spending affects public transport patronage and road vehicle usage.</li>
+        <li>Forecast vehicle usage and freight volumes across Australian states using time-series modelling.</li>
+        <li>Apply the gravity model to analyze regional connectivity and route efficiency.</li>
+        <li>Support equitable transport access and investment prioritization, especially for underserved areas.</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>📊 Methodology</h2>
+      <p>
+        Data was sourced from the Bureau of Infrastructure and Transport Research Economics (BITRE) and Integrated Travel (Canada). The team conducted:
+      </p>
+      <ul>
+        <li><strong>Data Preprocessing:</strong> Cleaning and aligning datasets for uniform time frames and state-wise comparisons.</li>
+        <li><strong>Statistical Analysis:</strong> Correlation analysis between infrastructure expenditure and vehicle kilometres travelled (VKT).</li>
+        <li><strong>Time Series Forecasting:</strong> ARIMA modelling to predict vehicle usage trends over 5 years.</li>
+        <li><strong>Gravity Model:</strong> To evaluate interaction strength between cities and prioritize rail corridors.</li>
+        <li><strong>Tools:</strong> R for analysis, forecasting, and visualization.</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>📈 Key Findings</h2>
+    
+      <h3>1. Investment Trends: Road vs Rail</h3>
+      <img src="1.png" alt="Investment Trend" class="project-image" style="margin-top: 20px;">
+      <ul>
+        <li>Yearly investment in rail is steadily increasing, showing a shift in funding priorities.</li>
+        <li>This change reflects rising sustainability goals and public transport demand.</li>
+        <li>Projections suggest rail funding will outpace road investment in the near future.</li>
+      </ul>
+    
+      <h3>2. Employment Distribution Across Transport Sectors</h3>
+      <img src="2.png" alt="Employment Chart" class="project-image" style="margin-top: 20px;">
+      <ul>
+        <li>Road transport employs the largest share of the workforce (2019–2023).</li>
+        <li>Air, rail, and water sectors have smaller but steady shares.</li>
+        <li>Potential growth opportunities exist in the rail and air sectors.</li>
+      </ul>
+    
+      <h3>3. Average Weekly Earnings by Sector</h3>
+      <img src="3.png" alt="Weekly Earnings Chart" class="project-image" style="margin-top: 20px;">
+      <ul>
+        <li>Air and space transport consistently offer the highest wages.</li>
+        <li>Road transport reports the lowest average weekly earnings.</li>
+        <li>Rail earnings show steady growth, though less pronounced.</li>
+        <li>The wage gap suggests a significant income disparity in the sector.</li>
+      </ul>
+    
+      <h3>4. State-Wise Road Spending vs. Usage</h3>
+      <img src="4.png" alt="Road Spending vs Usage" class="project-image" style="margin-top: 20px;">
+      <ul>
+        <li>NT has the highest correlation (0.79) between road spending and usage.</li>
+        <li>SA, QLD, and TAS show weak correlations, indicating limited impact.</li>
+        <li>High-spending states don’t always see proportional usage growth.</li>
+        <li>Demographics and urbanization influence road usage more than investment alone.</li>
+      </ul>
+    
+      <h3>5. Road Spending vs Vehicle Registrations</h3>
+      <img src="5.png" alt="Road Expenditure vs Registrations" class="project-image" style="margin-top: 20px;">
+      <ul>
+        <li>NT, WA, and ACT show strong alignment between road spending and registrations.</li>
+        <li>TAS and QLD display weak alignment, indicating other influencing factors.</li>
+        <li>Vehicle ownership is shaped by public transport access, population trends, and economics.</li>
+      </ul>
+    
+      <h3>6. 5-Year Forecast of Vehicle Usage (ARIMA)</h3>
+      <img src="6.png" alt="VKT Forecast" class="project-image" style="margin-top: 20px;">
+      <ul>
+        <li>QLD, SA, VIC, and WA show steady growth in vehicle usage.</li>
+        <li>ACT and NSW have growth with projected fluctuations (dip around 2025).</li>
+        <li>TAS shows a slight decline, unlike other states.</li>
+        <li>Useful for regional infrastructure planning.</li>
+      </ul>
+    
+      <h3>7. Infrastructure Spending Across Sectors</h3>
+      <img src="7.png" alt="Infrastructure Spending Chart" class="project-image" style="margin-top: 20px;">
+      <ul>
+        <li>Transport receives the highest investment compared to energy, water, and telecom.</li>
+        <li>Indicates government focus on improving mobility and logistics.</li>
+      </ul>
+    
+      <h3>8. Rail Expenditure vs Patronage (State-Wise Correlation)</h3>
+      <img src="8.png" alt="Rail vs Patronage Correlation" class="project-image" style="margin-top: 20px;">
+      <ul>
+        <li>SA shows strong positive correlation (0.84); investment increases patronage.</li>
+        <li>VIC shows moderate positive correlation (0.44).</li>
+        <li>NSW and QLD show negative correlations, especially QLD (-0.91).</li>
+        <li>Effectiveness of spending varies by state; calls for tailored strategies.</li>
+      </ul>
+    
+      <h3>9. 3D Visualization: Population, Interaction, and Movement</h3>
+      <img src="9.png" alt="3D Movement Plot" class="project-image" style="margin-top: 20px;">
+      <ul>
+        <li>Sydney–Melbourne corridor is a clear outlier with high interaction and population product.</li>
+        <li>Canberra’s unique position reflects political relevance despite lower population.</li>
+        <li>3D plot reveals hidden insights into economic and strategic route importance.</li>
+      </ul>
+    </section>
+    
+    <section>
+      <h2>✅ Conclusion</h2>
+      <p>
+        This project offered a comprehensive, data-driven evaluation of transportation equity across Australia by examining investment patterns, sectoral employment, earnings, and usage trends. The analysis revealed not only disparities in infrastructure funding and labour dynamics but also significant regional variations in transport behaviour and outcomes.
+      </p>
+      <p>
+        Key takeaways highlight the growing emphasis on sustainable rail transport, the need to address wage inequalities across transport sectors, and the importance of tailored, region-specific infrastructure strategies. With clear insights derived from ARIMA forecasting, correlation analysis, and gravity modelling, this project equips policymakers and urban planners with valuable evidence to guide future transport investments and promote equitable access across all Australian regions.
+      </p>
+    </section>
+    
+    
+
+    <section>
+      <h2>🧭 Impact</h2>
+      <p>
+        The project provides actionable insights for policymakers to make informed infrastructure investment decisions. It highlights the importance of aligning transport planning with actual usage patterns and equity-focused outcomes.
+      </p>
+    </section>
+
+    <!-- PDF Report Download Button -->
+    <section style="text-align: center; margin-top: 30px;">
+      <a href="transportation.pdf" download class="resume-download">📥 Download Full Report (PDF)</a>
+    </section>
+
+    <!-- Back to Portfolio -->
+    <section style="text-align: center; margin-top: 40px;">
+      <a href="index.html" class="resume-download">← Back to Portfolio</a>
+    </section>
+  </main>
+
+  <footer>
+    <p>Contact: +61 466267632 | <a href="mailto:priyamadabal1@gmail.com">priyamadabal1@gmail.com</a></p>
+    <p><a href="https://www.linkedin.com/in/priya-madabal-7b917b204/" target="_blank">LinkedIn</a></p>
+    <p>&copy; 2025 Priya Madabal</p>
+  </footer>
+
+</body>
+</html>
